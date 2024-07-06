@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+background-color: transparent;
+gap: 5 px;
+margin: 50px; 
+position: absolute;
+}
+
+.buttons-row{
+display: flex;
+gap: 5 px;
+}
+
+button {
+width: 50px;
+height: 50px;
+font-size: 30px;
+border-radius: 5px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-pressed {
+background-color: black;
+color: white;
+}
